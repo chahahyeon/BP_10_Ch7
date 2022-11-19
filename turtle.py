@@ -1,6 +1,6 @@
 #1번 문제
 import turtle           #터틀 라이브러리를 가져옴
-t = turtle.Turtle()     #turtle을 t로 대체하기
+t = turtle.Turtle()      #터틀 모듈에 터틀 함수를 t로 선언
 t.shape("turtle")       #모양을 거북이로 설정
 t.color("black", "white")    #"black", "white" 컬러 지정
 s = turtle.Screen(); s.bgcolor('skyblue');    #터틀 그래픽의 배경색을 'skyblue' 로 설정
@@ -34,7 +34,7 @@ draw_snowman(200, 0)   #좌표(200, 0)에 draw_snowman 함수 사용
 
 #2번문제
 import turtle    #터틀 라이브러리를 가져옴
-t = turtle.Turtle()    #turtle을 t로 대체하기
+t = turtle.Turtle()     #터틀 모듈에 터틀 함수를 t로 선언
 t.shape("turtle")    #모양을 거북이로 바꿈
 t.speed(0)    #거북이 속도를 0으로 바꿈
  
@@ -50,7 +50,7 @@ for i in range (6):  #6번 반복
 
 #3번문제
 import turtle      #터틀 라이브러리를 가져옴
-t = turtle.Turtle()    #turtle을 t로 대체하기
+t = turtle.Turtle()     #터틀 모듈에 터틀 함수를 t로 선언
 t.shape("turtle")      #모양을 거북이로 바꿈
 t.speed(0)         #거북이 속도를 0으로 바꿈
 
@@ -67,7 +67,7 @@ for x in range(150):   #150번 반복
 
 #4번문제
 import turtle     #터틀 라이브러리를 가져옴
-t = turtle.Turtle()          #turtle을 t로 대체하기
+t = turtle.Turtle()       #터틀 모듈에 터틀 함수를 t로 선언
 t.shape("turtle")     #모양을 거북이로 바꿈
 t.speed(0)      #거북이 속도를 0으로 바꿈
 
